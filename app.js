@@ -3,17 +3,17 @@
 */
 var express  = require('express');
 var app      = express();
-var port     = process.env.PORT || 3000;
+var port     = process.env.PORT || 3001;
 var mongoose = require('mongoose');
 var passport = require('passport');
 //var flash    = require('connect-flash');
 var http = require('http');
 var path = path = require('path');
+//TODO: get livereload working..
+var vhost = 'pooler.local'
 
-var vhost = 'nodejschat.local'
-
-var connection = require('./config/database')(mongoose);
-require('./config/passport')(passport,connection); // pass passport for configuration
+var connection = require('./config/database');
+//require('./config/passport')(passport,connection); // pass passport for configuration
 
 
 app.configure(function() {
@@ -41,6 +41,7 @@ app.configure(function() {
 });
 
 require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./app/auth.js')
 
 // development only
 if (app.get('env') === 'development') {
@@ -51,6 +52,15 @@ if (app.get('env') === 'development') {
 if (app.get('env') === 'production') {
     // TODO
 };
+
+var autoreload = require('connect-autoreload')
+
+var config = {
+  watch_dirs: 'js html css/compiled thirdparty/frontend',
+  ignore_regex: /\.sw[poax]$/,
+};
+
+app.use(autoreload(config));
 
 express.vhost(vhost, app);
 

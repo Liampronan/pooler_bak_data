@@ -1,0 +1,380 @@
+[
+  {
+    "locationName":"Golden Gate Bridge",
+    "locationDesc":"At the Presidio, U.S. Highway 101 and California Highway 1",
+    "latitude":"37.819722",
+    "longitude":-122.478611
+  },
+  {
+    "locationName":"Haslett Warehouse",
+    "locationDesc":"680 Beach St.",
+    "latitude":"37.8069",
+    "longitude":-122.4201
+  },
+  {
+    "locationName":"Ghirardelli Square",
+    "locationDesc":"Block bounded by North Point, Larkin, Beach and Polk Streets",
+    "latitude":"37.805703",
+    "longitude":-122.421794
+  },
+  {
+    "locationName":"San Francisco Art Institute",
+    "locationDesc":"800 Chestnut St.",
+    "latitude":"37.803456",
+    "longitude":-122.417144
+  },
+  {
+    "locationName":"Palace of Fine Arts",
+    "locationDesc":"3301 Lyon St.",
+    "latitude":"37.8029",
+    "longitude":-122.4484
+  },
+  {
+    "locationName":"Lillie Hitchcock Coit Tower",
+    "locationDesc":"1 Telegraph Hill Blvd.",
+    "latitude":"37.8024",
+    "longitude":-122.4058
+  },
+  {
+    "locationName":"Gibb-Sanborn Warehouse (Trinidad Bean and Elevator Company)",
+    "locationDesc":"855 Front St., and 101 Vallejo St.",
+    "latitude":"37.7995",
+    "longitude":-122.4002
+  },
+  {
+    "locationName":"Former Engine House No. 31",
+    "locationDesc":"1088 Green St.",
+    "latitude":"37.7986",
+    "longitude":-122.417
+  },
+  {
+    "locationName":"Feusier Octagon House",
+    "locationDesc":"1067 Green St.",
+    "latitude":"37.7983",
+    "longitude":-122.4167
+  },
+  {
+    "locationName":"Colonial Dames Octagon House",
+    "locationDesc":"2645 Gough St.",
+    "latitude":"37.7978",
+    "longitude":-122.4274
+  },
+  {
+    "locationName":"City Lights Bookstore",
+    "locationDesc":"261-271 Columbus Avenue",
+    "latitude":"37.797628",
+    "longitude":-122.406575
+  },
+  {
+    "locationName":"Metro Theater",
+    "locationDesc":"2055 Union Street",
+    "latitude":"37.797",
+    "longitude":-122.433
+  },
+  {
+    "locationName":"Columbus Tower (Sentinel Building)",
+    "locationDesc":"916-920 Kearny St.",
+    "latitude":"37.7964",
+    "longitude":-122.4049
+  },
+  {
+    "locationName":"Drexler-Colombo Building",
+    "locationDesc":"1-21 Columbus Ave.",
+    "latitude":"37.7956",
+    "longitude":-122.4037
+  },
+  {
+    "locationName":"Ferry Building",
+    "locationDesc":"The Embarcadero, foot of Market St.",
+    "latitude":"37.7954",
+    "longitude":-122.3936
+  },
+  {
+    "locationName":"Federal Reserve Bank Building (San Francisco)",
+    "locationDesc":"400 Sansome St.",
+    "latitude":"37.7943",
+    "longitude":-122.4011
+  },
+  {
+    "locationName":"California Historical Society (Whittier Mansion)",
+    "locationDesc":"2090 Jackson St.",
+    "latitude":"37.7933",
+    "longitude":-122.4295
+  },
+  {
+    "locationName":"Haas-Lilienthal House",
+    "locationDesc":"2007 Franklin St.",
+    "latitude":"37.7933",
+    "longitude":-122.4248
+  },
+  {
+    "locationName":"Bank of California Building",
+    "locationDesc":"400 California St.",
+    "latitude":"37.7932",
+    "longitude":-122.4016
+  },
+  {
+    "locationName":"Audiffred Building",
+    "locationDesc":"1-21 Mission St.",
+    "latitude":"37.7934",
+    "longitude":-122.3926
+  },
+  {
+    "locationName":"Calvary Presbyterian Church (Sanctuary)",
+    "locationDesc":"2501 Fillmore St.",
+    "latitude":"37.7927",
+    "longitude":-122.4347
+  },
+  {
+    "locationName":"Rincon Annex",
+    "locationDesc":"101-199 Mission St.",
+    "latitude":"37.7928",
+    "longitude":-122.3934
+  },
+  {
+    "locationName":"Chambord Apartments",
+    "locationDesc":"1298 Sacramento St.",
+    "latitude":"37.7925",
+    "longitude":-122.4142
+  },
+  {
+    "locationName":"Fairmont Hotel",
+    "locationDesc":"950 Mason St.",
+    "latitude":"37.7924",
+    "longitude":-122.4106
+  },
+  {
+    "locationName":"Flood Mansion (Pacific Union Club)",
+    "locationDesc":"1000 California St.",
+    "latitude":"37.792",
+    "longitude":-122.4114
+  },
+  {
+    "locationName":"Mark Hopkins Hotel",
+    "locationDesc":"850 Mason St./1 Nob Hill",
+    "latitude":"37.791558",
+    "longitude":-122.410364
+  },
+  {
+    "locationName":"Mills Building and Tower",
+    "locationDesc":"220 Montgomery St. and 220 Bush St.",
+    "latitude":"37.7912",
+    "longitude":-122.4018
+  },
+  {
+    "locationName":"Old Firehouse, Engine Company No. 2 and Truck No. 6",
+    "locationDesc":"1152 Oak St.",
+    "latitude":"37.7908",
+    "longitude":-122.4051
+  },
+  {
+    "locationName":"Crown Zellerbach Building",
+    "locationDesc":"1 Bush St./523 Market St.",
+    "latitude":"37.7908",
+    "longitude":-122.4
+  },
+  {
+    "locationName":"Hallidie Building",
+    "locationDesc":"130 Sutter St.",
+    "latitude":"37.7901",
+    "longitude":-122.403
+  },
+  {
+    "locationName":"Koshland House",
+    "locationDesc":"3800 Washington St.",
+    "latitude":"37.789",
+    "longitude":-122.4559
+  },
+  {
+    "locationName":"Mechanics' Institute",
+    "locationDesc":"57-65 Post Street",
+    "latitude":"37.788844",
+    "longitude":-122.403042
+  },
+  {
+    "locationName":"Palace Hotel and Garden Court Room",
+    "locationDesc":"2 New Montgomery St. and 633 Market St.",
+    "latitude":"37.788411",
+    "longitude":-122.40205
+  },
+  {
+    "locationName":"Lotta's Fountain",
+    "locationDesc":"Pedestrian Island, at Intersection of Market, Geary and Kearny Streets",
+    "latitude":"37.7879",
+    "longitude":-122.4033
+  },
+  {
+    "locationName":"Geary Theater",
+    "locationDesc":"415 Geary St.",
+    "latitude":"37.787",
+    "longitude":-122.4103
+  },
+  {
+    "locationName":"Islam Temple (Alcazar Theater)",
+    "locationDesc":"650 Geary Street",
+    "latitude":"37.78666",
+    "longitude":-122.41399
+  },
+  {
+    "locationName":"Jessie Street Substation",
+    "locationDesc":"220 Jessie St.",
+    "latitude":"37.7861",
+    "longitude":-122.4035
+  },
+  {
+    "locationName":"Goodman Building",
+    "locationDesc":"1117 Geary Blvd.",
+    "latitude":"37.7855",
+    "longitude":-122.4222
+  },
+  {
+    "locationName":"Flood Building",
+    "locationDesc":"870-898 Market Street",
+    "latitude":"37.7849",
+    "longitude":-122.4074
+  },
+  {
+    "locationName":"Old U.S. Mint",
+    "locationDesc":"88 Fifth St.",
+    "latitude":"37.7829",
+    "longitude":-122.4071
+  },
+  {
+    "locationName":"Odd Fellows Columbarium",
+    "locationDesc":"1 Loraine Court",
+    "latitude":"37.780612",
+    "longitude":-122.45707
+  },
+  {
+    "locationName":"Market Street Railway Substation",
+    "locationDesc":"1190 Fillmore Street, at Turk Street",
+    "latitude":"37.7804",
+    "longitude":-122.4319
+  },
+  {
+    "locationName":"San Francisco City Hall",
+    "locationDesc":"1 Dr. Carlton B. Goodlett Place",
+    "latitude":"#REF!",
+    "longitude":0
+  },
+  {
+    "locationName":"Orpheum Theatre",
+    "locationDesc":"1192 Market St.",
+    "latitude":"37.779081",
+    "longitude":-122.414708
+  },
+  {
+    "locationName":"Westerfeld House",
+    "locationDesc":"1198 Fulton St.",
+    "latitude":"37.7772",
+    "longitude":-122.4364
+  },
+  {
+    "locationName":"Mish House",
+    "locationDesc":"1153 Oak St.",
+    "latitude":"37.7729",
+    "longitude":-122.4383
+  },
+  {
+    "locationName":"Abner Phelps House",
+    "locationDesc":"1111 Oak St.",
+    "latitude":"37.7728",
+    "longitude":-122.4381
+  },
+  {
+    "locationName":"Conservatory of Flowers",
+    "locationDesc":"Golden Gate Park, John F. Kennedy Memorial Dr.",
+    "latitude":"37.7726",
+    "longitude":-122.4602
+  },
+  {
+    "locationName":"Nightingale House",
+    "locationDesc":"201 Buchanan St.",
+    "latitude":"37.77177",
+    "longitude":-122.42718
+  },
+  {
+    "locationName":"Carmel Fallon Building",
+    "locationDesc":"1800 Market Street",
+    "latitude":"37.77175",
+    "longitude":-122.42405
+  },
+  {
+    "locationName":"Dutch Windmill",
+    "locationDesc":"Golden Gate Park",
+    "latitude":"37.77044",
+    "longitude":-122.50941
+  },
+  {
+    "locationName":"Golden Gate Park Music Concourse",
+    "locationDesc":"Tea Garden Drive",
+    "latitude":"37.77064",
+    "longitude":-122.46749
+  },
+  {
+    "locationName":"Francis Scott Key Monument",
+    "locationDesc":"Golden Gate Park, East End of Music Concourse",
+    "latitude":"37.77064",
+    "longitude":-122.46749
+  },
+  {
+    "locationName":"State Armory and Arsenal",
+    "locationDesc":"14th and Mission",
+    "latitude":"37.767778",
+    "longitude":-122.420556
+  },
+  {
+    "locationName":"Mission Dolores",
+    "locationDesc":"320 Dolores St.",
+    "latitude":"37.7642",
+    "longitude":-122.4266
+  },
+  {
+    "locationName":"Castro Theatre",
+    "locationDesc":"429 Castro St.",
+    "latitude":"37.762",
+    "longitude":-122.435
+  },
+  {
+    "locationName":"Mission High School",
+    "locationDesc":"3750 18th Street",
+    "latitude":"37.761775",
+    "longitude":-122.427306
+  },
+  {
+    "locationName":"John McMullen House",
+    "locationDesc":"827 Guerrero St.",
+    "latitude":"37.7579",
+    "longitude":-122.4232
+  },
+  {
+    "locationName":"New Mission Theater",
+    "locationDesc":"2550 Mission",
+    "latitude":"37.7563",
+    "longitude":-122.419
+  },
+  {
+    "locationName":"Frank G. Edwards House",
+    "locationDesc":"1366 Guerrero St.",
+    "latitude":"37.7493",
+    "longitude":-122.4228
+  },
+  {
+    "locationName":"Laguna Honda Station /\n Forest Hill Station",
+    "locationDesc":"390 Laguna Honda Boulevard",
+    "latitude":"37.74803",
+    "longitude":-122.45914
+  },
+  {
+    "locationName":"Doggie Diner sign",
+    "locationDesc":"Sloat and 45th Avenue",
+    "latitude":"37.735461",
+    "longitude":-122.502969
+  },
+  {
+    "locationName":"Balboa High School",
+    "locationDesc":"1000 Cayuga Avenue at Onondaga Street",
+    "latitude":"37.721828",
+    "longitude":-122.441072
+  }
+]

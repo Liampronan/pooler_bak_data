@@ -1,0 +1,13 @@
+{{price.display_name}}
+<img src="/images/{{price.display_name.toLowerCase()}}.png" alt=""/>
+<p ng-if="price.surge_multiplier === 1 && price.display_name !== 'uberTAXI'">
+  Price estimate: {{price.estimate}}
+</p>
+<p ng-if="price.surge_multiplier ==! 1 && price.display_name !== 'uberTAXI'">
+  <span class="danger">Surge!</span>
+  Surge: {{price.surge_multiplier}}
+  Price estimate: {{getSurgeRange(price.low_estimate, price.high_estimate, price.surge_multiplier)}}
+</p>
+<p ng-if="price.display_name === 'uberTAXI'">
+  Price estimate: {{price.estimate}}
+</p>

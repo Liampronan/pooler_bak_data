@@ -1,0 +1,77 @@
+
+<div class="container main">
+  <div class="destination col-sm-4 text-center" ng-if="startLat && startLng">
+    <br/><br/><br/><br/><br/>
+    Your Departure Location is:
+    <reverse-geocode lat="{{startLat}}" lng="{{startLng}}" />
+  </div>
+
+  <form class="col-sm-4">
+        <div id="map_canvas" ui-map="model.myMap" class="map" ui-options="mapOptions" ui-event="{'map-click': 'addMarker($event, $params)', 'map-zoom_changed': 'setZoomMessage(myMap.getZoom())' }">
+          <polyline path='{{[{latitude: startLat, longitude: startLng}, {latitude: endLat, longitude: endLng}]}}'>
+          <!--todo: fix polyline-->
+          </polyline>
+        </div>
+        <div ng-repeat="marker in myMarkers" ui-map-marker="myMarkers[$index]">
+        </div>
+    <div ng-show="!showResult()">
+      Error : {{error}}
+      Error Code: {{error.code}}
+    </div>
+  </form>
+  <br/><br/><br/><br/><br/>
+
+  <div class="destination col-sm-4 text-center" ng-if="endLat && endLng">
+    Your Destination is:
+    <reverse-geocode lat="{{endLat}}" lng="{{endLng}}" />
+  </div>
+</div>
+<hr class="col-sm-offset-1 col-sm-10"/>
+
+<div class="col-sm-12">
+  <div class="text-center">
+    <button class="btn btn-theme" ng-click="getPricesandTimes();">Check Prices and Times</button>
+  </div>
+</div>
+
+<div class="col-sm-10 col-sm-offset-1" ng-show="prices">
+  <br/><br/>
+  <span ng-repeat="price in prices.prices">
+    <div class="col-sm-3">
+      <h6 class="text-center">{{price.display_name}}</h6>
+      <div class="text-center">
+        <img src="/images/{{price.display_name.toLowerCase()}}.png" alt=""/>
+      </div>
+      <p ng-if="price.surge_multiplier === 1 && price.display_name !== 'uberTAXI'" class="text-center no-margin-bottom">
+        Price: {{price.estimate}}
+      </p>
+      <p ng-if="price.surge_multiplier ==! 1 && price.display_name !== 'uberTAXI'" class="no-margin-bottom">
+        <span class="danger">Surge!</span>
+        Surge: {{price.surge_multiplier}}
+        Price: {{getSurgeRange(price.low_estimate, price.high_estimate, price.surge_multiplier)}}
+      </p>
+      <div ng-if="price.display_name === 'uberTAXI'" >
+        <p class="text-center no-margin-bottom">Price: {{price.estimate}} </p>
+      </div>
+      <!--TODO: fix the below quick hack -> should not rely on both $indexes being the same (time and prices)..-->
+      <p ng-show="times.times[$index]" class="text-center ">
+        Time: {{getMinutes(times.times[$index].estimate)}} Minutes
+      </p>
+    <div class="col-sm-1" ></div>
+    </div>
+   </span>
+</div>
+
+<!--<h5 class="col-sm-4 col-sm-offset-6">Available Vehicle Options</h5>-->
+<!--<div class="clearfix"></div>-->
+<!--<hr class="col-sm-offset-3 no-margin-top"/>-->
+<!--<div class="container col-sm-10 col-sm-offset-1">-->
+
+  <!--<div ng-repeat="product in products.products" class="col-sm-2 text-center">-->
+    <!--<p>{{product.display_name}}</p>-->
+    <!--<div class="uber-thumbnail">-->
+      <!--<img src='{{product.image}}'/>-->
+    <!--</div>-->
+    <!--<p>Capacity: {{product.capacity}}</p>-->
+  <!--</div>-->
+<!--</div>-->
