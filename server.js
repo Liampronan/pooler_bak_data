@@ -1,6 +1,7 @@
 /**
  * Module dependencies
 */
+require('locus')
 var express  = require('express');
 var app      = express();
 var port     = process.env.PORT || 3001;
@@ -12,9 +13,8 @@ var path = path = require('path');
 //TODO: get livereload working..
 var vhost = 'pooler.local'
 
-var connection = require('./config/database');
+var db = require('./config/database');
 //require('./config/passport')(passport,connection); // pass passport for configuration
-
 
 app.configure(function() {
 
@@ -40,7 +40,7 @@ app.configure(function() {
 
 });
 
-require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./app/routes.js')(app, passport, db); // load our routes and pass in our app and fully configured passport
 require('./app/auth.js')
 
 // development only

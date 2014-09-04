@@ -1,14 +1,23 @@
-var objectrocket = require('objectrocket');
-var options = {
-  "api_key" : "886823e2833549ff8abe2e659e1604e7",
-  "document" : {"first_name":"Chuck", "last_name":"Smith"},
-  "db" : "pooler",
-  "collection" : "User"
+//TODO: this probs should be local
+
+var saveUberData = function (uberData){
+  var objectrocket = require('objectrocket');
+  var  options = {
+    "api_key" : "886823e2833549ff8abe2e659e1604e7",
+    "document" : uberData,
+    "db" : "pooler",
+    "collection" : "Uber"
+  }
+
+  objectrocket.add(JSON.stringify(options), function(error, result) {
+    // Your code goes here based on error or success.
+    console.log("ERROR");console.log(error);
+    console.log("SUCCESS DB");console.log(result);
+  });
 }
 
-objectrocket.add(JSON.stringify(options), function(error, result) {
-  // Your code goes here based on error or success.
-});
+module.exports.saveUberData = saveUberData;
+
 
 //var Server = require('mongodb').Server;
 //var Db = require('mongodb').Db;

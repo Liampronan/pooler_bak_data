@@ -28,7 +28,7 @@ Clone the angular-express-seed repository, run `npm install` to grab the depende
 
 Runs like a typical express app:
 
-    node app.js
+    node server.js
 
 ### Running tests
 
@@ -41,7 +41,7 @@ Just fetch the changes and merge them into your project with git.
 
 ## Directory Layout
     
-    app.js              --> app config
+    server.js              --> app config
     package.json        --> for npm
     models/             --> contains mongoDB simple user Schema
         users.js
@@ -54,7 +54,7 @@ Just fetch the changes and merge them into your project with git.
         app.css         --> default stylesheet
       img/              --> image files
       js/               --> javascript files
-        app.js          --> declare top-level app module
+        server.js          --> declare top-level app module
         controllers.js  --> application controllers
         directives.js   --> custom angular directives
         filters.js      --> custom angular filters

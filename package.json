@@ -5,6 +5,7 @@
   "dependencies": {
     "ejs": "~0.7.1",
     "express": "~3.2.6",
+    "locus": "0.0.4",
     "mongodb": "*",
     "mongoose": "*",
     "objectrocket": "^1.0.3",
@@ -12,6 +13,7 @@
     "passport": "^0.2.0",
     "passport-http-bearer": "^1.0.1",
     "passport-local": "*",
+    "q": "^1.0.1",
     "request": "^2.40.0"
   },
   "devDependencies": {
